@@ -2,7 +2,9 @@ name: build-and-push
 
 on:
   push: 
-  
+    paths-ignore:
+      - '**/README.md'
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}

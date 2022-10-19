@@ -1,10 +1,13 @@
 # pangeo-buildx-template
+[![build-and-push](https://github.com/scottyhq/pangeo-buildx-template/actions/workflows/build-docker-image.yml/badge.svg)](https://github.com/scottyhq/pangeo-buildx-template/actions/workflows/build-docker-image.yml)
+
 template for quickly creating public docker images
+
 
 ## Usage:
 
 1. Click use this template
-1. Update this README.md if you want
+1. Update this README.md if you want (status badge etc to point to *your* image)
 1. Customize environment by adding [repo2docker files](https://repo2docker.readthedocs.io/en/latest/config_files.html)
 1. Use resulting image pushed to GitHub Packages!
 
